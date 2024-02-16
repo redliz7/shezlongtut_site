@@ -81,8 +81,21 @@ button {
   word-break: break-word;
 }
 #promo .promo__img {
-  max-width: 100%;
-  max-height: 390px;
+  max-height: 352px;
+}
+#promo .promo_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 125px;
+  margin-top: -100px;
+  background-image: url('image/brush.webp');
+  background-position: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: 700;
+  text-align: center;
 }
 #promo .promo__price {
   display: flex;
@@ -90,15 +103,18 @@ button {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 150px;
-  margin-top: -100px;
-  background-image: url('image/img-v1_promo_bg_page-first.webp');
+
   background-position: 50%;
   background-size: contain;
   background-repeat: no-repeat;
   font-weight: bold;
   text-align: center;
 }
+/* #promo .promo__price--old {
+  width: 230px;
+  height: 150px;
+  background-image: url('image/img_promo_bg_page-first.webp');
+} */
 #promo .promo__price .price__old {
   margin-left: -24px;
   margin-bottom: -8px;
